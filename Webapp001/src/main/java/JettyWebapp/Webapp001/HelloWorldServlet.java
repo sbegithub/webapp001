@@ -13,7 +13,7 @@ public class HelloWorldServlet extends HttpServlet {
                       HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h1>Hello World2</h1>");
+        out.println("<h1>Hello World4</h1>");
         out.close();
     }
 
